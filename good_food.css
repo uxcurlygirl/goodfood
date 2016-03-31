@@ -1,0 +1,155 @@
+
+
+body {
+  border: 0;
+  padding: 0;
+  margin: 0
+}
+wrapper {
+  width: 900px;
+  margin: 0px auto 0px auto;
+}
+
+h1 {
+font-size: 5em;
+font-family: 'Bevan', cursive;
+border: 0;
+padding: 0;
+margin: 0
+}
+h2 {
+font-size: 2em;
+font-family: 'Kalam', cursive;
+text-decoration: overline;
+border: 0;
+padding: 0;
+margin: 0
+}
+.headline {
+  text-align: center;
+}
+.nav {
+  background-color: #30332F;
+  height: 40px;
+  margin: 0;
+}
+.big_image {
+  background-image: url("http://i.imgur.com/nk2A6Ev.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  text-align: center;
+
+}
+.biggie {
+  height: 50px;
+  width: 200px;
+  background: #00b7ea;
+  border-radius: 10px;
+  margin-top: 540px;
+  background-color: #70a05a;
+  font-size: 24px;
+}
+.biggies {
+  display:block;
+  margin:0 auto;
+  height: 50px;
+  width: 200px;
+  background: #00b7ea;
+  border-radius: 10px;
+  /*margin-top: 540px;*/
+  background-color: #70a05a;
+  font-size: 24px;
+  /*background-color: grey;*/
+}
+.social_media {
+  text-align: center;
+  background-color: #547A71;
+}
+.buttonb {
+  background-color: #547A71;
+}
+
+.header {
+  text-align: center;
+  color:white;
+  background-color: #30332F;
+  border: 0;
+}
+.headline{
+  background-color: #30332F;
+  color: white;
+}
+.about {
+  text-align: center;
+  color: black;
+  width: 100%;
+  display: block;
+  font-family: 'Kalam', cursive;
+  font-size: 24px;
+
+}
+.images-row {
+  white-space: nowrap;
+  list-style: none;
+  display: block;
+  /*width: 100%;*/
+  height: 200px;
+  text-align: center;
+}
+/* resize images */
+.images-row img {
+    /*width: 25%;*/
+     /*height: auto;*/
+}
+.preview {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size: 24px;
+}
+.first_quote {
+  display: flex;
+  font-family: 'Kalam', cursive;
+  font-size: 24px;
+  height: 200px;
+  background-color: #547A71;
+  /*background-image: url("http://www.climatestore.com/media/wysiwyg/easy-plan.jpg");*/
+  text-align: left;
+  background-repeat: no-repeat;
+  padding-left: 600px;
+  padding-top: 50px;
+}
+.second_quote {
+  display: flex;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size: 24px;
+  height: 200px;
+  background-color: #747A71;
+  /*background-image: url("https://gratefulhappiness.files.wordpress.com/2013/06/be-human-care-for-people.jpg");*/
+  background-repeat: no-repeat;
+}
+.third_quote {
+  display: flex;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size: 24px;
+  height: 200px;
+  background-color: #642A71;
+  /*background-image: url("https://www.tylerarboretum.org/wp-content/uploads/2015/01/Butterfly-Header.jpg");*/
+  background-repeat: no-repeat;
+}
+ul
+{
+list-style-type: none;
+}
+.fineprint {
+  margin-top: 10px; 
+}
+
+footer {
+  height: 200px;
+  background-color: #000;
+  display: block;
+}
